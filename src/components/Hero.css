@@ -1,0 +1,61 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4vw;
+  padding: 8vw 6vw 6vw;
+  align-items: center;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(56px, 8vw, 108px);
+  line-height: 0.95;
+  margin: 0 0 20px;
+}
+
+.hero-sub {
+  font-size: 17px;
+  max-width: 40ch;
+  color: rgba(32, 28, 24, 0.75);
+  margin: 0 0 32px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 30px;
+  border: 1px solid var(--ink);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn:hover {
+  background: var(--ink);
+  color: var(--ivory);
+}
+
+/* the deck sits inside this box; MediaStack handles its own internal
+   layout, this just gives it room and adds the cursor-drift variables */
+.hero-collage {
+  --px: 0;
+  --py: 0;
+  position: relative;
+  height: 460px;
+  padding: 0 8% 60px 8%;
+  transform: translate(calc(var(--px) * 12px), calc(var(--py) * 12px));
+  transition: transform 0.2s ease-out;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 12vw 6vw 8vw;
+  }
+  .hero-collage {
+    height: 340px;
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,39 @@
+.placeholder,
+.placeholder-img {
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder {
+  display: flex;
+  align-items: flex-end;
+}
+
+.placeholder-label {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  padding: 10px 12px;
+  color: rgba(240, 233, 221, 0.9);
+  background: rgba(32, 28, 24, 0.35);
+  width: 100%;
+}
+
+.tone-olive {
+  background: linear-gradient(160deg, #7c7860, var(--olive));
+}
+.tone-brick {
+  background: linear-gradient(160deg, #c2593c, var(--brick-deep));
+}
+.tone-plum {
+  background: linear-gradient(160deg, #453a54, var(--plum));
+}
+.tone-sand {
+  background: linear-gradient(160deg, #ddd0b8, var(--sand));
+}
+.tone-ink {
+  background: linear-gradient(160deg, #4a453d, var(--ink));
+}

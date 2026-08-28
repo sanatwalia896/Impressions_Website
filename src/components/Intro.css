@@ -1,0 +1,15 @@
+.intro {
+  padding: 2vw 6vw 6vw;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.intro p {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(20px, 2.6vw, 30px);
+  line-height: 1.4;
+  max-width: 68ch;
+  margin: 3vw auto;
+  text-align: center;
+}

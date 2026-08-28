@@ -1,0 +1,90 @@
+.lookbook {
+  padding: 7vw 6vw;
+  border-bottom: 1px solid var(--line);
+}
+
+.section-head {
+  text-align: center;
+  max-width: 60ch;
+  margin: 0 auto 4vw;
+}
+
+.section-sub {
+  font-size: 15px;
+  color: rgba(32, 28, 24, 0.7);
+}
+
+/* Fanned deck — desktop only, see media query below */
+.lookbook-fan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+  perspective: 1200px;
+}
+
+.fan-card {
+  --i: 0;
+  width: 220px;
+  height: 320px;
+  margin-left: -70px;
+  border-radius: 4px;
+  box-shadow: 0 20px 40px rgba(32, 28, 24, 0.18);
+  transform: rotate(calc((var(--i) - 2.5) * 7deg))
+    translateY(calc(abs(var(--i) - 2.5) * 10px));
+  transform-origin: bottom center;
+  transition: transform 0.35s ease, z-index 0s;
+  z-index: var(--i);
+  cursor: pointer;
+}
+
+.fan-card:first-child {
+  margin-left: 0;
+}
+
+.fan-card:hover {
+  transform: rotate(calc((var(--i) - 2.5) * 7deg)) translateY(-28px) scale(1.04);
+  z-index: 10;
+}
+
+.fan-card .placeholder,
+.fan-card .placeholder-img {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.lookbook-grid {
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.p-look {
+  height: 320px;
+}
+
+.lookbook-grid .p-look:nth-child(2),
+.lookbook-grid .p-look:nth-child(5) {
+  height: 400px;
+  margin-top: -80px;
+}
+
+@media (max-width: 860px) {
+  .lookbook-fan {
+    display: none;
+  }
+  .lookbook-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lookbook-grid .p-look:nth-child(2),
+  .lookbook-grid .p-look:nth-child(5) {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .lookbook-grid {
+    grid-template-columns: 1fr;
+  }
+}
