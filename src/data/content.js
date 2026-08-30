@@ -47,8 +47,8 @@ export const CATEGORIES = [
     points: ["Fusion co-ords & drapes", "Embellished separates", "Occasion-ready styling"],
     tone: "brick",
     images: [
-      { src: null, alt: "Indo-western and party wear look" },
-      { src: null, alt: "Detail / texture", label: "Detail / texture" },
+      { src: "https://i.ibb.co/zV5tbdxS/cat1-1.png", alt: "Indo-western and party wear look" },
+      { src: "https://i.ibb.co/39LGYjmk/cat1-2.png", alt: "Detail / texture", label: "Detail / texture" },
     ],
   },
   {
@@ -60,8 +60,8 @@ export const CATEGORIES = [
     points: ["Cotton & georgette staples", "True-to-size fitting", "New drops every season"],
     tone: "olive",
     images: [
-      { src: null, alt: "Stitched suit look" },
-      { src: null, alt: "Detail / texture", label: "Detail / texture" },
+      { src: "https://i.ibb.co/mCyNM59F/cat2-1.png", alt: "Stitched suit look" },
+      { src: "https://i.ibb.co/8Df0cxq8/cat2-2.png", alt: "Detail / texture", label: "Detail / texture" },
     ],
     reverse: true,
   },
@@ -74,8 +74,8 @@ export const CATEGORIES = [
     points: ["Short & long tops", "Latest-fit denim", "Skirts & formal trousers"],
     tone: "ink",
     images: [
-      { src: null, alt: "Western wear edit look" },
-      { src: null, alt: "Detail / texture", label: "Detail / texture" },
+      { src: "https://i.ibb.co/VhdwWHd/cat3-1.png", alt: "Western wear edit look" },
+      { src: "https://i.ibb.co/8gdBbML9/cat3-2.png", alt: "Detail / texture", label: "Detail / texture" },
     ],
   },
   {
@@ -87,20 +87,20 @@ export const CATEGORIES = [
     points: ["Breathable fabrics", "Loungewear sets", "Everyday comfort fits"],
     tone: "plum",
     images: [
-      { src: null, alt: "Nightwear look" },
-      { src: null, alt: "Detail / texture", label: "Detail / texture" },
+      { src: "https://i.ibb.co/wNLqfDZC/cat4-1.png", alt: "Nightwear look" },
+      { src: "https://i.ibb.co/R4TdQct6/cat4-2.png", alt: "Detail / texture", label: "Detail / texture" },
     ],
     reverse: true,
   },
 ];
 
 export const LOOKBOOK_ITEMS = [
-  { label: "Festive drape", tone: "brick", src: null },
-  { label: "Office formal", tone: "sand", src: null },
-  { label: "Night out", tone: "plum", src: null },
-  { label: "Casual denim day", tone: "olive", src: null },
-  { label: "Indo-western fusion", tone: "brick", src: null },
-  { label: "Evening party wear", tone: "plum", src: null },
+  { label: "Festive drape", tone: "brick", src: "https://i.ibb.co/WW2tPF4L/lookbook-1.png" },
+  { label: "Office formal", tone: "sand", src: "https://i.ibb.co/Y494j75g/lookbook-2.png" },
+  { label: "Night out", tone: "plum", src: "https://i.ibb.co/wZNLGtPK/lookbook-3.png" },
+  { label: "Casual denim day", tone: "olive", src: "https://i.ibb.co/F4FKRSfk/lookbook-4.png"},
+  { label: "Indo-western fusion", tone: "brick", src: "https://i.ibb.co/1Vt6JQ2/lookbook-5.png" },
+  { label: "Evening party wear", tone: "plum", src: "https://i.ibb.co/ccPKvNsw/lookbook-6.png" },
 ];
 
 export const ABOUT = {
