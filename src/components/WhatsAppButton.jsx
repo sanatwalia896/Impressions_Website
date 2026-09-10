@@ -2,7 +2,7 @@ import "./WhatsAppButton.css";
 
 // Update the phone number below to your real WhatsApp Business number,
 // international format, no + or spaces (e.g. 91XXXXXXXXXX).
-const PHONE_NUMBER = "91XXXXXXXXXX";
+const PHONE_NUMBER = "919418041613";
 const MESSAGE = "Hi! I'd like to know more about Impressions.";
 
 export default function WhatsAppButton() {

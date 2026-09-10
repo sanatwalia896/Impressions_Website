@@ -28,9 +28,9 @@ export const HERO = {
   // MediaStack items — add as many as you want, they'll all rotate into
   // the deck. Swap `src: null` for a real path once you have the photo.
   images: [
-    { src: null, alt: "Model in an indo-western fusion outfit", tone: "olive", label: "AI hero shot — indo-western, 3:4" },
-    { src: null, alt: "Jewellery and drape detail", tone: "brick", label: "Detail shot — jewellery / drape" },
-    { src: null, alt: "Full-length party wear look", tone: "plum", label: "Party wear, full length" },
+    { src: "https://i.ibb.co/qSFMgK5/hero-1.png", alt: "Model in an indo-western fusion outfit", tone: "olive", label: "AI hero shot — indo-western, 3:4" },
+    { src: "https://i.ibb.co/SDzhSK1S/hero-2.png", alt: "Jewellery and drape detail", tone: "brick", label: "Detail shot — jewellery / drape" },
+    { src: "https://i.ibb.co/8Df0cxq8/cat2-2.png", alt: "Full-length party wear look", tone: "plum", label: "Party wear, full length" },
   ],
 };
 
@@ -110,22 +110,21 @@ export const ABOUT = {
     "Impressions started as a single multi-brand showroom with one idea: a woman's wardrobe isn't one aesthetic. She needs a stitched suit for a Tuesday, denim for a weekend, something fitted for a party, and something soft to sleep in. We stock across all of it, curated from brands we trust and cut for Indian sizing.",
     "This site is our online front door — right now, a lookbook of who we are. Ordering online is coming next.",
   ],
-  image: { src: null, alt: "Store front interior" },
+  image: { src: "https://i.ibb.co/5h31pYQs/Store-Image.png", alt: "Store front interior" },
 };
 
 export const VISIT = {
   eyebrow: "Visit us",
   title: "Come try it on",
-  details: ["Store address · Noida, Uttar Pradesh", "Open daily, 11am – 8pm"],
+  details: ["Store address · Palampur,Himachal Pradesh", "Open daily, 10am – 7pm"],
   links: [
-    { label: "Instagram", href: "#" },
-    { label: "WhatsApp", href: "#" },
-    { label: "Get directions", href: "#" },
+    { label: "WhatsApp", href: "https://wa.me/919418041613" },
+    { label: "Call", href: "tel:+91 9418041613" },
   ],
   // Swap this for your real store's embed: on Google Maps, search your
   // shop, click Share > Embed a map, and copy the src="..." URL here.
   mapEmbedSrc:
-    "https://www.google.com/maps?q=Noida,Uttar+Pradesh&output=embed",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54069.47815131833!2d76.4588584486328!3d32.1140545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3904b3c4900b7b9d%3A0x1b880d795c2a33a2!2sImpression!5e0!3m2!1sen!2sin!4v1789015825438!5m2!1sen!2sin",
 };
 
 export const WHY_ITEMS = [
@@ -146,4 +145,3 @@ export const WHY_ITEMS = [
     body: "Our team helps put full looks together — occasion wear, everyday fits, or building a capsule wardrobe.",
   },
 ];
-

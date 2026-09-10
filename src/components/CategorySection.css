@@ -57,8 +57,17 @@
 
 .category-media {
   position: relative;
-  height: 420px;
+  width: min(100%, 380px);
+  aspect-ratio: 3 / 4;
   padding-bottom: 50px;
+}
+
+.category.reverse .category-media {
+  justify-self: end;
+}
+
+.category-media .placeholder-img {
+  object-position: center top;
 }
 
 .category-title {
@@ -123,7 +132,11 @@
     margin-bottom: 12px;
   }
   .category-media {
-    height: 340px;
+    width: min(100%, 390px);
     margin-bottom: 28px;
+  }
+
+  .category.reverse .category-media {
+    justify-self: start;
   }
 }
